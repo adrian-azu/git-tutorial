@@ -1,0 +1,127 @@
+<mxfile>
+    <diagram id="wTOGJwD-kJBCfL9mFm2j" name="Page-1">
+        <mxGraphModel dx="1073" dy="737" grid="1" gridSize="3" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="800" background="#F4F1DE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" value="Location&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=none;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry x="0.1383" y="7" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="102" y="445"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Selected filter" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.436;exitY=0.984;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;exitPerimeter=0;" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry x="0.5091" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="84" y="558"/>
+                            <mxPoint x="278" y="558"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Selected Property" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="156" y="270"/>
+                            <mxPoint x="156" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Selected Property" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="2" target="26" edge="1">
+                    <mxGeometry x="0.0811" y="-9" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="168"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Tenant" style="html=1;dashed=0;whitespace=wrap;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Property Info" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="282" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="282"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Property ID" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" source="3" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Suggested Properties" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.05;exitY=0.683;exitDx=0;exitDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;exitPerimeter=0;labelBackgroundColor=none;" parent="1" source="3" edge="1">
+                    <mxGeometry x="0.1069" y="6" relative="1" as="geometry">
+                        <mxPoint x="140" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="278" y="300"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Browse" style="ellipse;whiteSpace=wrap;html=1;dashed=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="245" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Searched property" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry x="0.2959" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="234" y="498"/>
+                            <mxPoint x="320" y="498"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Searched Property" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;" parent="1" source="5" target="3" edge="1">
+                    <mxGeometry x="0.1559" y="-9" relative="1" as="geometry">
+                        <mxPoint x="310" y="325" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="234" y="384"/>
+                            <mxPoint x="320" y="384"/>
+                        </Array>
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Search Property" style="ellipse;whiteSpace=wrap;html=1;dashed=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="174" y="405" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Filtered Property" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry x="0.8326" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Filter Property" style="ellipse;whiteSpace=wrap;html=1;dashed=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="565" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Suggested Properties" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" source="19" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Fetched Filtered Property Data" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" source="19" target="7" edge="1">
+                    <mxGeometry x="0.3196" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="573" y="605"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Fetched Property Data" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=0.688;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;entryPerimeter=0;" parent="1" source="19" target="3" edge="1">
+                    <mxGeometry x="0.4314" y="12" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="549" y="300"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="TBL&amp;nbsp; PROPERTY" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="519" y="430" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Application request" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="26" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Apply&amp;nbsp; occupancy" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="257" y="126" width="126" height="84" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

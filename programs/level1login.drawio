@@ -1,0 +1,244 @@
+<mxfile>
+    <diagram id="ZBCXIiEkPLW0TF2T92nT" name="Page-1">
+        <mxGraphModel dx="389" dy="-444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="800" background="#F4F1DE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Login" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1316.5" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Login Page" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="3" target="13" edge="1">
+                    <mxGeometry x="-30" y="496.5" as="geometry">
+                        <mxPoint x="80" y="1276.5" as="sourcePoint"/>
+                        <mxPoint x="70" y="1456.5" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Login System" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="1326.5" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="User Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="13" target="5" edge="1">
+                    <mxGeometry x="20" y="1216.5" as="geometry">
+                        <mxPoint x="200" y="1361.5" as="targetPoint"/>
+                        <mxPoint x="130" y="1481.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="1470"/>
+                            <mxPoint x="150" y="1362"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Incorrect Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="8" target="5" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="TBL&amp;nbsp; Landlord" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="419" y="1306.5" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry x="20" y="1216.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Incorrect Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="11" target="5" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="TBL&amp;nbsp; Tenant" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1376.5" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Sanized/Validated &lt;br&gt;Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="5" target="11" edge="1">
+                    <mxGeometry x="-30" y="496.5" as="geometry">
+                        <mxPoint x="15" y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="Login via Facebook/Gmail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.184;entryY=0.87;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;entryPerimeter=0;" edge="1" parent="1" source="13" target="94">
+                    <mxGeometry x="0.6374" relative="1" as="geometry">
+                        <mxPoint x="150" y="1300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="105" y="1380"/>
+                            <mxPoint x="130" y="1380"/>
+                            <mxPoint x="130" y="1211"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="User" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="1456.5" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Error validation message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="5" target="13" edge="1">
+                    <mxGeometry as="geometry">
+                        <Array as="points">
+                            <mxPoint x="236" y="1481.5"/>
+                        </Array>
+                        <mxPoint x="53" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Check Dedicated&lt;br&gt;&amp;nbsp;URL" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="1326.5" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="8" target="15" edge="1">
+                    <mxGeometry x="20" y="1216.5" as="geometry">
+                        <mxPoint x="360" y="1246.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="1246.5"/>
+                            <mxPoint x="635" y="1246.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Fetched Landlord Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" parent="16" vertex="1" connectable="0">
+                    <mxGeometry x="0.2309" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-37.18000000000001" y="-4.0600000000000005" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="TENANT?" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="1176.5" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Fetched Tenant Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="11" target="15" edge="1">
+                    <mxGeometry x="-30" y="496.5" as="geometry">
+                        <mxPoint x="470" y="1476.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="1471.5"/>
+                            <mxPoint x="635" y="1471.5"/>
+                        </Array>
+                        <mxPoint x="7" y="70" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Requested URL&lt;br&gt;Tenant: Homepage/Tenant Page&lt;br&gt;Landlord: Admin Dashboard" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="15" target="18" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="700" y="1221.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="1361.5"/>
+                            <mxPoint x="700" y="1246.5"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Generate&lt;br&gt;&amp;nbsp;Home page" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="1026.5" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Tenant" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="18" target="21" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="770" y="1126.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1211.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Related Properties" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="24" target="21" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="931.5"/>
+                            <mxPoint x="700" y="1061.5"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Tbl&amp;nbsp; &amp;nbsp;Properies" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="916.5" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Tenant Location" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="21" target="24" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="A" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="1516.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="A" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="685" y="1136.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Interested Properties and &lt;br&gt;Related Properties" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="21" target="27" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="699.9999999999998" y="1116.5" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Data Statstistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.92;exitY=0.762;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="30" target="27" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="574" y="1152.5"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Generate Admin&amp;nbsp;&lt;br&gt;Dashboard Data" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="1106.5" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Landlord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="18" target="30" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="570" y="1146.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="535" y="1211.5"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Owned Properties and&lt;br&gt;&amp;nbsp;Tenant renting" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="33" target="30" edge="1">
+                    <mxGeometry as="geometry">
+                        <Array as="points">
+                            <mxPoint x="496" y="956.5"/>
+                        </Array>
+                        <mxPoint x="-16" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="TBL&lt;br&gt;TP" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="515" y="936.5" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Landlord token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="30" target="33" edge="1">
+                    <mxGeometry as="geometry">
+                        <mxPoint x="535" y="986.5" as="targetPoint"/>
+                        <mxPoint y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="36" target="8" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="TBL &lt;br&gt;L" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="539" y="1266.5" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="38" target="11" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="TBL &lt;br&gt;T" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="1406.5" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="TBL&lt;br&gt;T" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="836.5" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Relationship" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="24" target="39" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="TBL&amp;nbsp;&lt;br&gt;TP" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="677.5" y="834" width="45" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Landing page" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="43" target="13" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="130" y="1241.5" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Displaying &lt;br&gt;dedicated&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span&gt;Landing page&lt;/span&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;align=center;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="1496.5" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="39" target="41" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="700" y="856.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Provided Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="26" target="43" edge="1">
+                    <mxGeometry x="30" y="834" as="geometry">
+                        <mxPoint x="280" y="1241.5" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="Auth Token and data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=none;" edge="1" parent="1" source="94" target="5">
+                    <mxGeometry x="-0.1528" y="14" relative="1" as="geometry">
+                        <mxPoint x="280" y="1170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="236" y="1185"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="API" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="1150" width="110" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
